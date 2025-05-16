@@ -41,7 +41,7 @@ jobs:
       with:
         node-version: ${{ env.NODE_VERSION }}
         cache: 'npm'
-        cache-dependency-path: '/home/runner/work/nodejs-docs-hello-world/package-lock.json'
+        cache-dependency-path: 'nodejs-docs-hello-world/package-lock.json'
 
 
     - name: npm install, build, and test
